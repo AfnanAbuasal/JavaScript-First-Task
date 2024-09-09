@@ -1,0 +1,26 @@
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+button {
+    cursor: pointer;
+}
+.increaseBtn,
+.decreaseBtn {
+    border: none;
+    padding: 0px;
+    background-color: transparent;
+}
+button i {
+    font-size: 25px;
+    color: #545BE8;
+}
+.normalSizeBtn {
+    background-color: #545BE8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 3px 10px;
+    margin-left: 10px;
+}
